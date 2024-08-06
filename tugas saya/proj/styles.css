@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background: #ffffff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    display: inline;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #405bbd;
+    text-decoration: none;
+}
+
+.header-buttons {
+    float: right;
+}
+
+.header-buttons .btn {
+    background: #fff;
+    color: #0d6efd;
+    padding: 10px 20px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    background: #2e68a2;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero-buttons .btn {
+    background: #0d6efd;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.features, .services, .faq, .blog, .team, .testimonials {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features h2, .services h2, .faq h2, .blog h2, .team h2, .testimonials h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.features-grid, .services-grid, .blog-grid, .team-grid, .testimonial-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature-item, .service-item, .blog-item, .team-member, .testimonial {
+    background: #f8f9fa;
+    padding: 40px;
+    margin: 10px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    flex: 1 1 calc(25% - 20px); /* Mengatur lebar masing-masing item, dikurangi margin */
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
+
+.feature-item img {
+    width: 100%;
+    height: auto;
+    max-width: 100px; /* Batasi ukuran maksimum gambar */
+    margin: 0 auto 10px; /* Pusatkan gambar dalam kontainer dan tambahkan margin bawah */
+}
+
+.feature-item h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.feature-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.team {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    flex: 1 1 calc(25% - 20px); /* Mengatur lebar masing-masing item, dikurangi margin */
+    margin: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #f8f9fa;
+    padding: 10px;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    max-width: 200px; /* Batasi ukuran maksimum gambar */
+    margin: 0 auto; /* Pusatkan gambar dalam kontainer */
+}
+
+.team-member h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+.team-member img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #2b579a;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    width: 23%;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section form input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+}
+
+.footer-section form button {
+    padding: 10px 20px;
+    border: none;
+    background: #fff;
+    color: #0d6efd;
+}
